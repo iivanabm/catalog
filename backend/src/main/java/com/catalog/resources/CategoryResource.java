@@ -1,7 +1,6 @@
 package com.catalog.resources;
 
 import com.catalog.dto.CategoryDTO;
-import com.catalog.entities.Category;
 import com.catalog.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -42,5 +41,11 @@ public class CategoryResource {
     public ResponseEntity<CategoryDTO> update(@PathVariable Long id, @RequestBody CategoryDTO dto){
         dto = categoryService.update(id, dto);
         return ResponseEntity.ok().body(dto);
+    }
+
+    @DeleteMapping(value = "/{id}")
+    public ResponseEntity<Void> remove(@PathVariable Long id){
+        categoryService.remove(id);
+        return ResponseEntity.noContent().build();
     }
 }
