@@ -1,3 +1,18 @@
 INSERT INTO tb_category (name, created_At) VALUES ('Books', NOW());
 INSERT INTO tb_category (name, created_At) VALUES ('Electronics', NOW());
 INSERT INTO tb_category (name, created_At) VALUES ('Computers', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Garden', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('DVD', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('CD', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Toys', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Board Game', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Clothing', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Action Figures', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Pets', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Office', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Beauty', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Fast Food', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Shoes', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Sports', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Automotive', NOW());
+INSERT INTO tb_category (name, created_At) VALUES ('Video Games', NOW());
